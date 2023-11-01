@@ -215,14 +215,14 @@ const App = () => {
           }}>
           <View
             style={{
-              backgroundColor: seleksi == 4 ? '#B22222' : '#FFFFFF',
+              backgroundColor: seleksi == 5 ? '#B22222' : '#FFFFFF',
               width: 10,
               height: 10,
               borderRadius: 10 / 2,
             }}></View>
         </View>
         <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-          <Text>Tropod + Camera</Text>
+          <Text>Tripod + Camera</Text>
         </View>
       </TouchableOpacity>
 
@@ -273,44 +273,6 @@ const App = () => {
           paddingHorizontal: 20,
           borderRadius: 6,
           flexDirection: 'row',
-          borderWidth: seleksi == 7 ? 6 : 0,
-          borderColor: seleksi == 7 ? '#B22222' : 'transparent',
-        }}
-        onPress={() => setSeleksi(7)}>
-        <View
-          style={{
-            backgroundColor: '#FFFFFF',
-            borderWidth: 3,
-            width: 25,
-            height: 25,
-            borderRadius: 25 / 2,
-            justifyContent: 'center',
-            alignItems: 'center',
-            borderColor: '#B22222',
-          }}>
-          <View
-            style={{
-              backgroundColor: seleksi == 7 ? '#B22222' : '#FFFFFF',
-              width: 10,
-              height: 10,
-              borderRadius: 10 / 2,
-            }}></View>
-        </View>
-        <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-          <Text>Nasi Pecel</Text>
-        </View>
-      
-      </TouchableOpacity>
-      <TouchableOpacity
-        style={{
-          marginHorizontal: 20,
-          marginTop: 20,
-          backgroundColor: '#E9967A',
-          elevation: 3,
-          paddingVertical: 10,
-          paddingHorizontal: 20,
-          borderRadius: 6,
-          flexDirection: 'row',
           borderWidth: seleksi == 8 ? 7 : 0,
           borderColor: seleksi == 8 ? '##B22222' : 'transparent',
         }}
@@ -337,9 +299,7 @@ const App = () => {
         <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
           <Text>Edit Foto</Text>
         </View>
-      
       </TouchableOpacity>
-      
         </View>
       )}
     </View>
