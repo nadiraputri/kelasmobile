@@ -22,7 +22,7 @@ const Quran = () => {
 
   return (
     <View style={styles.box}>
-      <Text>Quran</Text>
+      <Text>Menerima Pesanan Al Quran</Text>
       <ScrollView>
         {dataQuran?.map((data, index) =>  {
           return (
